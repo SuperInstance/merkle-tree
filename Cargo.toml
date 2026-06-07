@@ -1,0 +1,18 @@
+[package]
+name = "merkle-tree"
+version = "0.1.0"
+edition = "2021"
+description = "Merkle tree construction, proof generation/verification, batch proofs, and consistency proofs with multiple hash strategies"
+license = "MIT OR Apache-2.0"
+authors = ["SuperInstance"]
+repository = "https://github.com/SuperInstance/merkle-tree"
+keywords = ["merkle", "tree", "hash", "proof", "cryptocurrency"]
+categories = ["cryptography", "data-structures"]
+readme = "README.md"
+
+[dependencies]
+sha2 = "0.10"
+blake3 = "1.5"
+hex = "0.4"
+
+[dev-dependencies]
